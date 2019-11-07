@@ -1,8 +1,16 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const CustomHeader = styled.h1`
+font-size: 5.5rem;
+padding: 20px;
+`
 
 function Header() {
     return (
-        <h1>Nasa Photo of the Day <span role="img" aria-label='rocketship emoji'>🚀</span>!</h1>
+        <div>
+            <CustomHeader>Nasa Photo of the Day !</CustomHeader>
+        </div>
     )
 }
 
