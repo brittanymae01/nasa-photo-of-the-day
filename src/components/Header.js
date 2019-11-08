@@ -9,7 +9,7 @@ padding: 20px;
 function Header() {
     return (
         <div>
-            <CustomHeader>Nasa Photo of the Day !</CustomHeader>
+            <CustomHeader>Nasa Photo of the Day!</CustomHeader>
         </div>
     )
 }
